@@ -93,6 +93,7 @@ integration + 2 extension mirrors), and 60 Python execution scripts.
 | `/seo firecrawl [cmd] <url>` | Full-site crawling and site mapping (extension) |
 | `/seo ahrefs [cmd] <target>` | Ahrefs backlink and keyword data (extension) |
 | `/seo bing [cmd] <url>` | Bing Webmaster data and IndexNow (extension) |
+| `/seo cloro [cmd]` | Live AI answers and cited sources (extension) |
 | `/seo profound [cmd]` | LLM brand-citation tracking (extension) |
 | `/seo seranking [cmd]` | AI share-of-voice tracking (extension) |
 | `/seo matomo [cmd] [args]` | Matomo Reporting API: GA4 alternative or supplement (extension) |
@@ -169,7 +170,7 @@ skills/                    # 26 sub-skills (auto-discovered)
 agents/                    # 19 subagents
 scripts/                   # 60 Python scripts, including the managed runtime
 schema/                    # JSON-LD templates
-extensions/                # 9 MCP extensions: DataForSEO, Firecrawl, Banana, Ahrefs, SE Ranking, Profound, Bing Webmaster, Matomo, Unlighthouse
+extensions/                # 10 MCP extensions: DataForSEO, Firecrawl, Banana, Ahrefs, SE Ranking, Profound, Bing Webmaster, Matomo, cloro, Unlighthouse
 ```
 
 ## Key Principles

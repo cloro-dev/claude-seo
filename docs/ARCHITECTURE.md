@@ -320,6 +320,14 @@ extensions/
 │   ├── skills/seo-bing/SKILL.md
 │   └── docs/BING-WEBMASTER-SETUP.md
 │
+├── cloro/                    # cloro hosted MCP: live AI answers and cited sources
+│   ├── install.sh
+│   ├── install.ps1
+│   ├── uninstall.sh
+│   ├── uninstall.ps1
+│   ├── skills/seo-cloro/SKILL.md
+│   └── docs/CLORO-SETUP.md
+│
 └── unlighthouse/             # Multi-page Lighthouse runner (local)
     ├── install.sh
     ├── install.ps1
@@ -339,6 +347,7 @@ extensions/
 | **SE Ranking** | SE Ranking API | AI Share-of-Voice across ChatGPT, Gemini, Perplexity, AI Overviews, and AI Mode |
 | **Profound** | Profound API | LLM citation tracking with time-series data |
 | **Bing Webmaster** | Bing Webmaster Tools API | Bing Webmaster Tools + IndexNow URL submission |
+| **cloro** | Hosted MCP (`https://mcp.cloro.dev/mcp`) | Live ChatGPT, Gemini, AI Mode, and AI Overview answers with cited sources; Google SERP |
 | **Unlighthouse** | `unlighthouse@0.13.5` | Multi-page Lighthouse runner, runs locally |
 
 ### Extension Convention

@@ -345,6 +345,7 @@ Optional add-ons that bring in more data. Claude SEO works fully without them.
 - **Banana:** AI images for SEO, from social previews to blog heroes ([Claude Banana](https://github.com/AgriciDaniel/banana-claude))
 - **SE Ranking:** your share of voice in ChatGPT, Gemini, Perplexity and Google AI answers
 - **Profound:** tracks when AI models cite your site
+- **cloro:** live ChatGPT, Gemini, Google AI Mode and AI Overview answers, with the sources they cite
 - **Bing Webmaster:** Bing data plus instant IndexNow submission
 - **Unlighthouse:** Lighthouse scores for every page of your site
 

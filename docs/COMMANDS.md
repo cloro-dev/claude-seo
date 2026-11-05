@@ -698,6 +698,17 @@ Bing Webmaster Tools + IndexNow (extension). **Prerequisites:** Bing extension i
 
 ---
 
+### `/seo cloro [command] <prompt|query>`
+
+Live AI answers and cited sources via cloro's hosted MCP server (extension). **Prerequisites:** cloro extension installed.
+```
+/seo cloro visibility <prompt> <brand>   # One prompt on ChatGPT, AI Mode, Gemini, AI Overview (26 credits)
+/seo cloro ask <engine> <prompt>         # One prompt on one engine (6-7 credits)
+/seo cloro serp <query> [--aio]          # Google organic results, optional AI Overview (5-7 credits)
+```
+
+---
+
 ### `/seo matomo [command] [site-id]`
 
 Matomo Reporting API (extension). **Prerequisites:** Matomo extension installed (`./extensions/matomo/install.sh`), which writes the instance URL, API token, and optional default site ID to `~/.config/claude-seo/matomo.json` (0600). `MATOMO_URL`, `MATOMO_API_TOKEN`, and `MATOMO_SITE_ID` in the environment override the file. Works against self-hosted Matomo or Matomo Cloud; an instance on a private address must be named in `CLAUDE_SEO_LOCAL_TARGETS`.
@@ -790,4 +801,5 @@ Multi-page Lighthouse audit via Unlighthouse (extension, MIT, no API quota). **P
 | `/seo profound [command]` | LLM citation tracking with time-series data (extension) |
 | `/seo bing [command] <url>` | Bing Webmaster Tools + IndexNow URL submission (extension) |
 | `/seo matomo [command] [args]` | Matomo Reporting API: GA4 alternative or complement (extension) |
+| `/seo cloro [command]` | Live AI answers and cited sources from ChatGPT, Gemini, AI Mode, AI Overviews (extension) |
 | `/seo unlighthouse <url>` | Multi-page Lighthouse runner, runs locally (extension) |

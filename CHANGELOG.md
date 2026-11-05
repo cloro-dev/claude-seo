@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **cloro extension** (`extensions/cloro/`, `/seo cloro`). Connects cloro's
+  hosted MCP server (`https://mcp.cloro.dev/mcp`) with the user's API key and
+  adds the `seo-cloro` skill: live ChatGPT, Gemini, Google AI Mode, and AI
+  Overview answers with their cited sources, plus Google SERP. Paid
+  service with a free monthly allowance; each call costs 5 to 7 credits.
+  Contributed by cloro (vendor).
+
 ## [2.5.0] - 2026-10-22
 
 Security and accuracy fixes from a full audit, and Claude Desktop installs again.

@@ -32,6 +32,7 @@ INSTALLERS = {
     "extensions/profound/install.sh": ([], "CLAUDE_SEO_SECRET"),
     "extensions/seranking/install.sh": ([], "CLAUDE_SEO_SECRET"),
     "extensions/bing-webmaster/install.sh": (["https://e.test/key.txt"], "CLAUDE_SEO_SECRET"),
+    "extensions/cloro/install.sh": ([], "CLAUDE_SEO_SECRET"),
 }
 BASE_ENV = {"CLAUDE_SEO_USERNAME": "user", "CLAUDE_SEO_INDEXNOW_KEY": "idx"}
 
@@ -106,6 +107,7 @@ PS1_WRITERS = {
     "extensions/profound/install.ps1": ([], "CLAUDE_SEO_SECRET"),
     "extensions/seranking/install.ps1": ([], "CLAUDE_SEO_SECRET"),
     "extensions/bing-webmaster/install.ps1": (["https://e.test/key.txt"], "CLAUDE_SEO_SECRET"),
+    "extensions/cloro/install.ps1": ([], "CLAUDE_SEO_SECRET"),
 }
 
 
